@@ -12,3 +12,4 @@ total_amount_for_each = (total_bill + tip_amount) / no_of_people
 print(round(total_amount_for_each, 2))
 
 
+
