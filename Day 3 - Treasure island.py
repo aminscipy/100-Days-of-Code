@@ -14,5 +14,5 @@ if door == 'left':
             print('Game Over')
     else:
         print('Game Over')
-if door == 'right':
+else:
     print('game over')
