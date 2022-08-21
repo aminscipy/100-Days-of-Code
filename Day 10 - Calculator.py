@@ -1,10 +1,10 @@
 def calculator():
-    first_number = int(input('What is the first no? '))
+    first_number = float(input('What is the first no? '))
     should_continue = True
 
     while should_continue:
         operator = input('+\n-\n*\n/\nwhat operation you want to perform? ')
-        second_number = int(input('what is the next number? '))
+        second_number = float(input('what is the next number? '))
 
         def first_calculation():
             if operator == '+':
